@@ -3,7 +3,7 @@ pragma solidity 0.8.17;
 
 import {FilAddress} from "shim/FilAddress.sol";
 import {OwnedClaimable} from "shim/OwnedClaimable.sol";
-import {IWFIL} from "src/Interfaces/IWFIL.sol";
+import {IWFIL} from "./Interfaces/IWFIL.sol";
 import {IPoolToken} from "src/Interfaces/IPoolToken.sol";
 import {IPreStake} from "src/Interfaces/IPreStake.sol";
 
